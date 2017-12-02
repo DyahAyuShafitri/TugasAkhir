@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="310.0" prefWidth="487.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TA.AwalController">
+   <children>
+      <ImageView fitHeight="310.0" fitWidth="487.0">
+         <image>
+            <Image url="@image/7.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="90.0" opacity="0.7" prefHeight="223.0" prefWidth="487.0" style="-fx-background-color: white;">
+         <children>
+            <Button fx:id="btnrute" layoutX="26.0" layoutY="38.0" mnemonicParsing="false" onAction="#rute" prefHeight="42.0" prefWidth="174.0" style="-fx-background-color: black;" text="Rute Jalur KA" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn" layoutX="269.0" layoutY="38.0" mnemonicParsing="false" onAction="#button" prefHeight="42.0" prefWidth="174.0" style="-fx-background-color: black;" text="Booking Tiket" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="harga" layoutX="113.0" layoutY="126.0" mnemonicParsing="false" onAction="#Harga" prefHeight="42.0" prefWidth="263.0" style="-fx-background-color: black;" text="Daftar Harga Tiket KA" textFill="WHITE">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="20.0" />
+               </font>
+            </Button>
+            <AnchorPane layoutY="-94.0" opacity="0.8" prefHeight="95.0" prefWidth="488.0" style="-fx-background-color: black;" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="156.0" layoutY="-11.0" text="Welcome" textFill="WHITE">
+         <font>
+            <Font name="Amarillo" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="502.0" prefWidth="360.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ta.CoverController">
+   <children>
+      <ImageView fitHeight="460.0" fitWidth="310.0" layoutX="25.0" layoutY="21.0">
+         <image>
+            <Image url="@image/the-korus-51284.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="73.0" layoutY="437.0" text="Copyright by Dyah Ayu 2017" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="150.0" text="TICker">
+         <font>
+            <Font name="Candles" size="75.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="150.0" text="TICker" textFill="WHITE">
+         <font>
+            <Font name="Candles" size="75.0" />
+         </font>
+      </Label>
+      <Button fx:id="selanjutnya" layoutX="162.0" layoutY="279.0" mnemonicParsing="false" onAction="#terus" style="-fx-background-color: white;" text="&gt;&gt;&gt;">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="231.0" layoutY="183.0" text="Version 8.0.0" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
